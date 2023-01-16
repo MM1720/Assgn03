@@ -1,5 +1,5 @@
-string = "ABCDEFGHIJK"
-j = 0
-while len(string)-j*2 >= 1:
-    print(" "*j, string[0 : len(string) - j*2])
-    j += 1
+a="ABCDEFGHIJK"
+j=0
+while len(a)-j*2>=1:
+    print(" "*j,a[0:len(a)-j*2])
+    j=j+1
